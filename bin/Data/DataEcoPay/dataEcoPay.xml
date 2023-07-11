@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<list>
+    <UseCase.PoinEcoPay.EcoPay>
+        <Saldo>10000</Saldo>
+        <alamatWallet>abc</alamatWallet>
+    </UseCase.PoinEcoPay.EcoPay>
+    <UseCase.PoinEcoPay.EcoPay>
+        <Saldo>10000</Saldo>
+        <alamatWallet>bac</alamatWallet>
+    </UseCase.PoinEcoPay.EcoPay>
+    <UseCase.PoinEcoPay.EcoPay>
+        <Saldo>10000</Saldo>
+        <alamatWallet>kal</alamatWallet>
+    </UseCase.PoinEcoPay.EcoPay>
+    <UseCase.PoinEcoPay.EcoPay>
+        <Saldo>10000</Saldo>
+        <alamatWallet>osl</alamatWallet>
+    </UseCase.PoinEcoPay.EcoPay>
+</list>

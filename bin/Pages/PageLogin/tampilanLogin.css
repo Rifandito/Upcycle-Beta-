@@ -1,0 +1,24 @@
+
+.login-page {
+    -fx-background-color: #baf8c0;
+    
+}
+
+.logintxt {
+    -fx-background-color: #00000000;
+    -fx-border-color: #57cc99;
+    -fx-border-width: 0px 0px 2px 0px;
+}
+
+.button1 {
+    -fx-text-fill: black;
+    -fx-background-color: #57cc99;
+    -fx-background-radius: 20;
+    -fx-font-weight: bold;
+    -fx-font-size: 20;
+    -fx-cursor: hand;
+}
+
+.background {
+    -fx-background-color: #ffffff;
+}
