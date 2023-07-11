@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" fx:id="Skeleton" prefHeight="800.0" prefWidth="1550.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Pages.HomePage.MainController">
+   <children>
+      <BorderPane fx:id="mainPane" prefHeight="800.0" prefWidth="1550.0" stylesheets="@tampilan.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <BorderPane fx:id="TopPane" prefHeight="120.0" prefWidth="1550.0" styleClass="header-section" BorderPane.alignment="CENTER">
+               <top>
+                  <BorderPane prefHeight="80.0" prefWidth="1400.0" styleClass="top-header-section">
+                     <left>
+                        <ImageView fitHeight="80.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+                           <image>
+                              <Image url="@../../../Images/Logo%20Aplikasi/Upcycle-v.3.png" />
+                           </image>
+                        </ImageView>
+                     </left>
+                     <right>
+                        <Pane prefHeight="80.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                           <children>
+                              <Button id="account" fx:id="AkunButton" layoutX="30.0" layoutY="19.0" mnemonicParsing="false" onAction="#keHalamanAkun" text="My Account">
+                                 <graphic>
+                                    <ImageView fitHeight="30.0" fitWidth="30.0" pickOnBounds="true" preserveRatio="true">
+                                       <image>
+                                          <Image url="@../../../Images/Akun/javafx_account_example.png" />
+                                       </image>
+                                    </ImageView>
+                                 </graphic>
+                              </Button>
+                           </children>
+                        </Pane>
+                     </right>
+                  </BorderPane>
+               </top>
+               <bottom>
+                  <BorderPane prefHeight="40.0" prefWidth="1400.0" styleClass="Toolbar-container" BorderPane.alignment="CENTER">
+                     <left>
+                        <ToolBar prefHeight="40.0" prefWidth="600.0" styleClass="Toolbar-container" BorderPane.alignment="CENTER">
+                          <items>
+                            <Button fx:id="MarketplaceButton" mnemonicParsing="false" onAction="#keHalamanHome" styleClass="Toolbar-buttons" text="Home" />
+                            <Button fx:id="PerankuButton" mnemonicParsing="false" onAction="#keHalamanPeranku" styleClass="Toolbar-buttons" text="Peranku" />
+                            <Button fx:id="EdukasiBeritaButton" layoutX="102.0" layoutY="12.0" mnemonicParsing="false" onAction="#keHalamanMateriDanBerita" styleClass="Toolbar-buttons" text="Materi Edukasi dan Berita" />
+                            <Button fx:id="EcoPayButton" layoutX="165.0" layoutY="12.0" mnemonicParsing="false" onAction="#keHalamanEcoPay" styleClass="Toolbar-buttons" text="EcoPay" />
+                            <Button fx:id="TransaksiButton" layoutX="276.0" layoutY="12.0" mnemonicParsing="false" onAction="#keHalamanTransaksi" styleClass="Toolbar-buttons" text="Transaksi" />
+                          </items>
+                        </ToolBar>
+                     </left>
+                  </BorderPane>
+               </bottom>
+            </BorderPane>
+         </top>
+         <center>
+            <ScrollPane prefHeight="672.8" prefWidth="1550.0" BorderPane.alignment="CENTER">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefWidth="1534.0">
+                     <children>
+                        <AnchorPane prefWidth="1534.0" styleClass="background">
+                           <children>
+                              <ImageView fitHeight="890.0" fitWidth="1539.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Images/HomePage/HomePage1.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                        <AnchorPane layoutY="866.4" prefWidth="1534.0">
+                           <children>
+                              <ImageView fitHeight="890.0" fitWidth="1539.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../Images/HomePage/HomePage2.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                     </children>
+                  </AnchorPane>
+              </content>
+            </ScrollPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="1400.0" style="-fx-background-color: #11bb62;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="55.0" layoutY="301.0" prefHeight="381.0" prefWidth="1345.0" style="-fx-background-color: #c7f7ce;">
+         <children>
+            <HBox layoutX="65.0" layoutY="-58.0" prefHeight="434.0" prefWidth="1281.0">
+               <opaqueInsets>
+                  <Insets top="100.0" />
+               </opaqueInsets>
+               <padding>
+                  <Insets right="100.0" />
+               </padding>
+               <children>
+                  <VBox prefHeight="434.0" prefWidth="334.0">
+                     <children>
+                        <ImageView fitHeight="189.0" fitWidth="205.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/news1.jpg" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="60.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="VIRAL! anak muda menjual ecobrick dapat 5 juta per Bulan" wrappingWidth="285.81698513031006">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="20.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-underline: black;" text="Klik untuk membaca selengkapnya." textAlignment="CENTER" underline="true" wrappingWidth="285.81698513031006">
+                           <font>
+                              <Font name="System Italic" size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="15.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="434.0" prefWidth="334.0">
+                     <children>
+                        <ImageView fitHeight="187.0" fitWidth="234.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/news2.jpeg" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="50.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pelajar Sekolah Dasar Nusa Pelita Membuat Meja dari Ecobrick" wrappingWidth="285.81698513031006">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="20.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-underline: black;" text="Klik untuk membaca selengkapnya." textAlignment="CENTER" underline="true" wrappingWidth="285.81698513031006">
+                           <font>
+                              <Font name="System Italic" size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="15.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="434.0" prefWidth="334.0">
+                     <children>
+                        <ImageView fitHeight="187.0" fitWidth="234.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/news3.jpg" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="50.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Warga Kampung Rawa Membuat Rumah dari Ecobrik" wrappingWidth="257.01693630218506">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="20.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-underline: black;" text="Klik untuk membaca selengkapnya." textAlignment="CENTER" underline="true" wrappingWidth="285.81698513031006">
+                           <font>
+                              <Font name="System Italic" size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="15.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="434.0" prefWidth="334.0">
+                     <children>
+                        <ImageView fitHeight="195.0" fitWidth="271.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@img/News4.png" />
+                           </image>
+                           <VBox.margin>
+                              <Insets left="30.0" />
+                           </VBox.margin>
+                        </ImageView>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Masyarakat Desa Sidomulyo Diajak Manfaatkan Sampah Plastik Menjadi Stool Sofa Ecobrick" wrappingWidth="285.81698513031006">
+                           <font>
+                              <Font name="System Bold" size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="20.0" />
+                           </VBox.margin>
+                        </Text>
+                        <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-underline: black;" text="Klik untuk membaca selengkapnya." textAlignment="CENTER" underline="true" wrappingWidth="285.81698513031006">
+                           <font>
+                              <Font name="System Italic" size="20.0" />
+                           </font>
+                           <VBox.margin>
+                              <Insets left="30.0" top="15.0" />
+                           </VBox.margin>
+                        </Text>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </Pane>
+      <Text layoutX="66.0" layoutY="84.0" strokeType="OUTSIDE" strokeWidth="0.0" text="What's New?" textAlignment="CENTER" wrappingWidth="417.9364929199219">
+         <font>
+            <Font name="Tahoma" size="100.0" />
+         </font>
+      </Text>
+      <Text layoutX="-73.0" layoutY="318.0" rotate="-90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="━━   UPCYCLE&#10;" wrappingWidth="243.98306465148926">
+         <font>
+            <Font size="20.0" />
+         </font></Text>
+   </children>
+</Pane>
