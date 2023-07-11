@@ -1,0 +1,36 @@
+<?xml version="1.0" ?>
+<list>
+    <UseCase.Pengguna.Pengguna>
+        <username>Rambo</username>
+        <password>1</password>
+        <alamatWallet>abc</alamatWallet>
+        <peran>Pengguna Umum</peran>
+        <UserId>1</UserId>
+    </UseCase.Pengguna.Pengguna>
+    <UseCase.Pengguna.Peran.Penyetor>
+        <username>Ucup</username>
+        <password>1</password>
+        <alamatWallet>bac</alamatWallet>
+        <peran>Penyetor</peran>
+        <UserId>2</UserId>
+        <JumlahSetoran>0</JumlahSetoran>
+    </UseCase.Pengguna.Peran.Penyetor>
+    <UseCase.Pengguna.Peran.Pengepul>
+        <username>Doni</username>
+        <password>1</password>
+        <alamatWallet>kal</alamatWallet>
+        <peran>Pengepul</peran>
+        <UserId>3</UserId>
+        <NamaPengepulan>Lokakarya</NamaPengepulan>
+        <Lokasi>Semarang</Lokasi>
+    </UseCase.Pengguna.Peran.Pengepul>
+    <UseCase.Pengguna.Peran.Produsen>
+        <username>Iding</username>
+        <password>1</password>
+        <alamatWallet>osl</alamatWallet>
+        <peran>Produsen</peran>
+        <UserId>4</UserId>
+        <NamaToko>Toko Kita</NamaToko>
+        <Lokasi>Jakarta</Lokasi>
+    </UseCase.Pengguna.Peran.Produsen>
+</list>
